@@ -5,26 +5,31 @@
 }
 
 body {
+    --color-blue: #024e76;
+    --color-yellow: #fce138;
+    --color-teal: #39a6b2;
+    --color-white: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    color: #39a6b2
+    color: var(--color-teal);
+    
 }
 
 header {
     padding: 20px 25px;
-    background-color: #39a6b2;
+    background-color: var(--color-teal);
 }
 
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #fce138;
+    color: var(--color-yellow);
     margin: 0;
     display: inline;
 }
 
 header a {
     text-decoration: none;
-    color: #fce138
+    color: var(--color-yellow);
 }
 
 header nav {
@@ -43,14 +48,14 @@ header nav ul li a {
 }
 
 footer {
-    background: #fce138;
+    background: var(--color-yellow);
     width: 100%;
-    padding: 40px 35px
+    padding: 40px 35px;
 }
 
 footer h2 {
     display: inline;
-    color: #024e76;
+    color: var(--color-blue);
     font-size: 30px;
     margin: 0;
 }
@@ -62,7 +67,7 @@ footer div {
 }
 
 footer a {
-    color: #024e76;
+    color: var(--color-blue);
 }
 
 section {
@@ -78,11 +83,11 @@ section {
 }
 
 .hero-form {
-    background-color: #fce138;
+    background-color: var(--color-yellow);
     padding: 20px;
     width: 500px;
-    color: #024e76;
-    border: 3px solid #024e76;
+    color: var(--color-blue);
+    border: 3px solid var(--color-blue);
     position: absolute;
     bottom: 120px;
     right: 140px;
@@ -98,22 +103,22 @@ section {
 }
 
 .form-input {
-    border: 1px solide #024e76;
+    border: 1px solid var(--color-blue);
     display: block;
     padding: 7px 15px;
     font-size: 16px;
-    color: #024e76;
+    color: var(--color-blue);
     width: 100%;
     margin-bottom: 15px;
 }
 
 .hero-form label {
-    margin: 0 5px
+    margin: 0 5px;
 }
 
 .hero-form button {
-    background-color: #024e76;
-    color: #fce138;
+    background-color: var(--color-blue);
+    color: var(--color-yellow);
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -125,7 +130,7 @@ section {
 
 .section-title {
     font-size: 55px;
-    color: #024e76;
+    color: var(--color-blue);
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
@@ -133,16 +138,16 @@ section {
 }
 
 .primary-border {
-    border-color: #fce138;
+    border-color: var(--color-yellow);
 }
 
 .secondary-border {
-    border-color: #39a6b2;
+    border-color: var(--color-teal);
 }
 
 .intro p {
     line-height: 1.7;
-    color: #39a6b2;
+    color: var(--color-teal);
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
@@ -150,7 +155,7 @@ section {
 
 .steps {
     text-align: center;
-    background: #fce138;
+    background: var(--color-yellow);
 }
 
 .steps div {
@@ -163,18 +168,18 @@ section {
 }
 
 .steps h3 {
-    color: #024e76;
+    color: var(--color-blue);
     font-size: 46px;
     margin-top: 10px;
 }
 
 .steps p {
-    color: #39a6b2;
+    color: var(--color-teal);
     font-size: 23px;
 }
 
 .steps span {
-    font-size: 38px
+    font-size: 38px;
 }
 
 .trainers {
@@ -184,8 +189,8 @@ section {
 .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
-    background: #024e76;
-    color: #fce138;
+    background: var(--color-blue);
+    color: var(--color-yellow);
     overflow: auto;
 }
 
@@ -226,12 +231,12 @@ section {
 
 .contact {
     text-align: center;
-    background-color: #024e76;
+    background-color: var(--color-blue);
     overflow: auto;
 }
 
 .contact h2 {
-    color: #fce138
+    color: var(--color-yellow);
 }
 
 .contact-info iframe {
@@ -245,12 +250,12 @@ section {
     vertical-align: top;
     text-align: left;
     margin: 30px 0 0 60px;
-    color: white;
+    color: var(--color-white);
 }
 
 .contact-info h3 {
-    color: #fce138;
-    font-size: 32px;;
+    color: var(--color-yellow);
+    font-size: 32px;
 }
 
 .contact-info p, .contact-info address {
@@ -261,6 +266,6 @@ section {
 }
 
 .contact-info a {
-    color: #fce138;
+    color: var(--color-yellow);
 }
 
