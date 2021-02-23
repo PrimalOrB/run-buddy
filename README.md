@@ -12,3 +12,5 @@ https://PrimalOrB.github.io/run-buddy
 
 ## Contribution
 Made with ❤️ by Andrew Ogilvie
+
+# Run Buddy Inc.
